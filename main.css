@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("./m1.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+}#login{
+    position: absolute;
+    width:30%;
+    height: auto;
+    border: 2px solid white;
+    border-radius: 10px;
+    right: 0;
+    left: 0;
+    top: 50%;
+    margin: 0 auto 0;
+    padding: 2em;/*margenes internas*/
+    background-color: rgba(255, 255, 255, 0.661);
+}
+#login #titulo h2{
+    font-size: 2em;
+    text-align: center;
+    font-weight: bold;/*texto en negrilla*/
+}
+#login #form input[type="text"]{
+    width: 90%;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    outline: 0px;
+    background-color: gray;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#login #form input[type="password"]{
+    width: 90%;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    outline: 0px;
+    background-color: gray;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
